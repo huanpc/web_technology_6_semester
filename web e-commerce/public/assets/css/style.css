@@ -1,0 +1,151 @@
+body{
+	color: #6666FF;	
+	font-size: 14px;
+}
+form{
+	width:300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form input{
+	margin-bottom: 10px;
+}
+table, th, td {
+   border: 1px solid white;     
+}
+label.error{
+	color: red;
+}
+p{
+	width:300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a{
+	color: blue;
+}
+table, td, th{
+	 border: 1px solid ;
+}
+td{
+	padding: 5px;
+}
+div.top {
+	width:100%;
+/*	height: 20%;*/
+	position: relative;
+	top: 0;
+	/*background-color: #6666FF;*/
+}
+
+div.top ul li {
+	display: inline;
+	width: 40px;
+	text-align: center;
+}
+
+div.top ul li a{
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;	
+	background-color: #6666FF;
+}
+div.top ul li a:hover {
+	background-color: #0000CC;
+	color: white;
+	text-decoration: none;	
+}
+li.menuUsername{
+/*	display: block;
+	float: right;*/
+	/*text-align: right;*/
+	/*font-weight: bold;
+	margin-right: 70px;
+	font-style: strong;*/
+}
+li.menuProfile{
+	/*display: block;	
+	float: right;
+	position: relative;
+	right: .menuLogout;*/
+}
+li.menuLogout{
+/*	display: block;	
+	float:right;
+	position: relative;
+	right: 50px;
+	left: .menuProfile;*/
+}
+div.container {
+	width: 80%;
+	height: 40%;
+	margin-right: auto;
+	margin-left: auto;
+
+	/*background-color: #6666FF;*/
+}
+.list_row{
+	padding: 5px 5px 5px 5px;
+	border-bottom: solid 1px #dfdfdf;
+	overflow: hidden;	
+	width: 500px;
+}
+.list_row .title{
+	padding: 5px 5px 5px 5px;
+	line-height: 32px;	width: 100%;
+}
+.list_row .title .tit{
+	line-height: 22px;
+	font-weight: bold;
+}
+.list_row .title .descript {
+	line-height: 10px;
+	float:left;
+	width: 100%;
+}
+.list_row .title .descript .left_ {
+	float: left;
+	display: block;
+	width: 70%;
+}
+.list_row .title .descript .right_price{
+	float: right;
+	display: block;
+	width: 30%;	
+	text-align: right;
+}
+.list_row .title .descript .right_price span{	
+	font-size: 17px;
+	color: orange;
+	font-weight: bold;
+}
+.list_row .pre_image {
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+}
+.list_row .pre_image img{	
+	width: 500px;
+}
+.list_row .info{	
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+	float:left;
+}
+.list_row .info .left_address{
+	float:left;
+	width: 70%;
+}
+.list_row .info .left_address .user_ava {	
+	float:left;
+}
+.list_row .info .left_address .user_info{
+	float: left;
+}
+.list_row .info .right_view{		
+	float:right;	
+	width: 30%;
+	padding:0px 5px;
+}
+.clear{
+	clear: both;
+}
